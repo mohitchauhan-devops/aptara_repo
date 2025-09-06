@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "rg123" {
   name     = "rg-feku"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rg1234" {
+  name     = "rg-chor"
+  location = "West Europe"
+}
