@@ -22,3 +22,11 @@ resource "azurerm_resource_group" "rg1234" {
   name     = "rg-chor"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rg1235" {
+  name     = "rg-mahachor"
+  location = "West Europe"
+  tags = {
+    environment = "dev"
+  }
+}
